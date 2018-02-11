@@ -1,6 +1,20 @@
-var canvas:HTMLCanvasElement;
-var ctx:CanvasRenderingContext2D;
+let canvas:any;
+let ctx:CanvasRenderingContext2D;
+let stage:createjs.Stage;
 
+function Start():void {
+canvas = document.getElementById("cnvs");
+stage = new createjs.Stage(canvas);
+createjs.Ticker.framerate =60;
+createjs.Ticker.on("tick",Update);
+}
+
+function Update(): void {
+stage.update();
+}
+function Main(): void {
+console.log("try main");
+}
 function gameLoop():void {
 requestAnimationFrame(gameLoop);
 ctx.fillStyle="black";

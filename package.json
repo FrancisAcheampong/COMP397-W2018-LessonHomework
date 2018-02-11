@@ -1,0 +1,34 @@
+{
+  "name": "gametutorial",
+  "version": "1.0.0",
+  "description": "CreateJs installation",
+  "main": "index.js",
+  "dependencies": {
+    "easeljs": "^1.0.2",
+    "lite-server": "^2.3.0",
+    "preloadjs": "^1.0.1",
+    "soundjs": "^1.0.1",
+    "tweenjs": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrancisAcheampong/COMP397-W2018-LessonHomework.git"
+  },
+  "keywords": [
+    "Create",
+    "JS",
+    "Node",
+    "Js",
+    "npm"
+  ],
+  "author": "francis Acheampong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrancisAcheampong/COMP397-W2018-LessonHomework/issues"
+  },
+  "homepage": "https://github.com/FrancisAcheampong/COMP397-W2018-LessonHomework#readme"
+}
